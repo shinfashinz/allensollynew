@@ -1,0 +1,880 @@
+.container{
+   display: flex;
+    justify-content: space-between;
+    background-color:rgb(155, 153, 153);
+    height: 60px;
+}
+.leftimg{
+    display: flex;
+    justify-content: left;
+   padding-top: 10px;
+   gap: 5px;
+   padding-left: 50px;
+}
+ .img1 img{
+    width: 60px;
+    height: 40px;
+    padding-left: 40px;
+    
+}
+.img1:hover{
+    background-color: rgb(47, 43, 43);}
+
+.img2 img{
+    width:140px;
+    height: 40px;
+   }
+   .img2:hover{
+    background-color: rgb(48, 42, 42);
+   }
+.img3 img{
+    width: 60px;
+}
+.img3:hover{
+    background-color: rgb(70, 63, 63);}
+
+
+.righticons{
+    display: flex;
+    color: white;
+    gap: 20px;
+    padding-right: 90px;
+    padding-top: 25px;
+}
+.righticons span:hover{
+    color: yellow;
+}
+.icon4 i:hover{
+    color: red;
+}
+.icon5 i:hover{
+    color: red;
+}
+.seconddiv{
+    display: flex;
+    justify-content: space-between;
+   
+    
+
+}
+.divborder{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 20px;
+}
+.allenimg img{
+    width: 100px;
+    height: 40px;
+    padding-left: 70px;
+
+}
+
+.divtext{
+    display: flex;
+    gap: 15px;
+    padding-top: 15px;
+    padding-left: 70px;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+}
+.men span{
+    color: red;
+}
+.divtext a{
+    text-decoration: none;
+    color: black;
+}
+.divtext a:hover{
+    border-bottom: 2px solid red;
+}
+.search{
+    padding-left: 120px;
+    padding-top: 15px;
+}
+.sale a{
+    color: red;
+}
+.banner img{
+    width: 100%;
+    padding-top: 20px;
+    border-radius: 14px;
+    
+}
+.bannerbtm{
+    display: flex;
+    gap: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 60px;
+    width: 50px;
+}
+.bannerbtm img{
+    width: 150px;
+    gap: 10px;
+    align-items: center;
+}
+.bannerbtm h4{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+.image1 {
+    text-align: center;
+}
+.image2 {
+    text-align: center;
+}
+.image3 {
+    text-align: center;
+}
+.image4 {
+    text-align: center;
+}
+.image5 {
+    text-align: center;
+}
+.image6 {
+    text-align: center;
+}
+.categery{
+    background-color: rgb(225, 164, 164);
+    height: 220px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.allentxt{
+    padding-top: 5px;
+    padding-left: 30px;
+    justify-content: center;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: large;
+    width: 500px;
+    
+}
+
+.rs h5{
+    text-align:left;
+    padding-left: 30px;
+    font: "Roboto","Helvetica","Arial",sans-serif;;
+}
+.catbtm{
+    display: flex;
+    gap: 10px;
+    
+}
+.usecode{
+    padding-left: 30px;
+    font-size: small;
+}
+.asapp{
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: small;   
+}
+
+
+.appstore img{
+    padding-top: 13px;
+    height: 30px;
+}
+.playstore img{
+    padding-top: 13px;
+    height: 30px;
+}
+.catcenter {
+    display: flex;
+
+}
+.qrcode img{
+    width: 150px;
+    height: 150px;
+    padding-top: 40px;
+    gap: 100px;
+    padding-right: 150px;
+
+}
+.catcenter span img{
+    width:200px;
+    height: 100px;
+    padding-bottom: 30px;
+}
+.fresharrival{
+    text-align: center;
+    padding-top: 50px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    color: rgb(36, 36, 67);
+}
+.freshimages {
+    display: flex;
+    gap: 30px;
+    width: 200px;
+    
+}
+.freshimages img{
+    width: 250px;
+}
+.freshimages h2{
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    color:  rgb(36, 36, 67);
+    font-size: medium;
+}
+.printshirt img{
+    padding-left: 80px;
+}
+.printshirt h2{
+   text-align: center;
+}
+.vacay h2{
+    text-align: center;
+ }
+ .kidswear h2{
+    text-align: center;
+ }
+ .suit h2{
+    text-align: center;
+ }
+ .vara{
+    padding-top: 50px;
+    padding-left: 80px;
+ }
+ .vara img{
+    width: 100%;
+    height: 100%;
+ }
+ .varatxt{
+    text-align: center;
+    padding-top: 40px;
+ }
+ .text1 h1{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    color: #0e3051;
+ }
+ .text1 h4{
+    letter-spacing: 2px;
+    font-family: monospace;
+ }
+ .text2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+ }
+ .text2 h3{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-weight: 500;
+ }
+ .text2 div :hover{
+    border-bottom: 2px solid red;
+ }
+ .trend{
+    display: flex;
+    gap: 30px;
+ }
+ .trend img{
+    width: 320px;
+    
+ }
+ .trend h4{
+   font-family:  "Roboto","Helvetica","Arial",sans-serif;
+ }
+ .trend1 img{
+    padding-left: 90px;
+ }
+  .trend1 h4{
+    text-align: center;
+   
+ }
+ .trend2 h4{
+    text-align: center;
+   
+ }
+ .trend3 h4{
+    text-align: center;
+    font-family: 
+   
+ }
+ .trend4 h4{
+    text-align: center;
+   
+ }
+ 
+
+/* POPULER STYLE SECTION// */
+
+.pplr-styles{
+    background-color: rgb(1, 1, 52);
+    width: 100%;
+    
+}
+.pplr-styles h1{
+    padding-top: 40px;
+    text-align: center;
+    color: rgb(255, 247, 0);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    letter-spacing: 2px;
+    font-size: 27px;
+}
+.pplr-styles-links{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px
+}
+.pplr-lnk a{
+    text-decoration: none;
+    color: wheat;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#pplr-all{
+    border-bottom: 2px solid yellow;
+}
+.pplr-lnk a:hover{
+    border-bottom: 2px solid yellow;
+}
+.card{
+    margin-top: 40px;
+    text-align: left;
+    width: 20.7%;
+    height: 620px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    color: whitesmoke;
+}
+#fav-pplr-style{
+    position: absolute;
+    margin-left: 275px;
+    color: wheat;
+    
+}
+.collections{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.card img{
+    width: 100%;
+}
+.ln-one{
+    margin-top: 0 !important;
+    font-size: 12px;
+    margin-bottom: 0 !important;
+}
+.ln-two{
+    font-weight: 700;
+    margin-top: 0 !important;
+    margin-bottom: 0 !;
+    margin-bottom: 0 !important;
+}
+.deleted,.price{
+    font-weight: 500;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+}
+.off{
+    color: rgb(224, 249, 4);
+}
+.card i{
+    margin-top: 15px;
+}
+.price{
+    display: flex;
+    gap: 20px;
+}
+.card span{
+    margin-left: 10px;
+    color: rgb(251, 245, 245);
+}
+#peach{
+    color: rgb(5, 5, 5);
+}
+#pink{
+    color: rgb(237, 230, 231);
+}
+.black{
+    color: black;
+}
+.hl{
+    border-bottom: 2px solid rgb(244, 156, 156);
+    width: 90%;
+    margin-left: 70px;
+}
+.top-selling-div{
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    margin-left: 100px;
+          margin-top: 50px;
+}
+.top-selling-left img{
+          width: 700px;
+          height: 500px;
+          margin-left: 100px;
+          margin-top: 50px;
+}
+.logo-heading img{
+    width: 700px;
+}
+.divaider{
+    padding-top: 50px;
+    width: 80px;
+}
+
+
+/* top selling */
+
+/* 
+.top-selling-div{
+    margin-top: 40px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.blue-footer{
+    background-color: rgb(14, 48, 81);
+    height: 130px;
+    width: 98%;
+    margin-top: -4px;
+    border-radius:  0px 0px 6px 6px;
+}
+.top-selling-div .aln-lgo{
+    width: 20%;
+}
+.top-selling-div img{
+    width: 98%;
+    margin-bottom: 0 !important;
+}
+.logo-heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.logo-heading img{
+    margin-right: 180px;
+}
+
+
+.blue-footer h2{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    color: white;
+    margin-left: -300px;
+    letter-spacing: 2px;
+}
+.blue-footer p{
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-left: 150px;
+    width: 20%;
+    padding-bottom: ;
+    margin-left: 80px;
+    border-bottom: 2px solid yellow;
+}
+.top-selling-right{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 565px;
+    border-bottom: 2px solid rgb(163, 163, 163);
+}
+#fav-top-selling{
+    position: absolute;
+    margin-left: 260px;
+    color: rgb(117, 117, 117);
+}
+.top-sell-deleted{
+    font-weight: 500;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    color: rgb(110, 110, 110);
+}
+.top-sellprice{
+    display: flex;
+    gap: 20px;
+    color: black;
+}
+.ln-one-top-sell{
+    margin-top: 0 !important;
+    font-size: 12px;
+    margin-bottom: 0 !important;
+    color: rgb(92, 92, 92);
+    letter-spacing: 2px;
+}
+.ln-two-top-sell{
+    font-weight: 700;
+    margin-top: 0 !important;
+    margin-bottom: 0 !;
+    margin-bottom: 0 !important;
+    color: black;
+    letter-spacing: 1px;
+}
+.top-sell-off{
+    color: rgb(208, 7, 151);
+}
+.top-selling-right .card{
+    width: 300px;
+    margin-top: 0 !important;
+}
+#grey{
+    color: grey;
+}
+#green{
+    color: green;
+}
+.top-selling-right span{
+    color: rgb(115, 115, 115);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+} */
+/* shop look */
+
+.shop-the-look{
+    text-align: center;
+}
+.shop-the-look h1{
+    padding-top: 40px;
+    color: rgb(14, 48, 81);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    letter-spacing: 2px;
+    font-size: 27px;
+}
+.shp-look-imgs{
+    text-align: center;
+    margin-top: 40px;
+}
+#addtocart{
+    color: red;
+    position: absolute;
+    margin-left: 296px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+.shp-look-imgs img{
+    width: 22%;
+    margin-left: 14px;
+    border-radius: 8px;
+}
+
+
+
+/* explore */
+
+
+.explore{
+    text-align: center;
+    margin-top: 50px;
+}
+.explr-btn{
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: rgb(14, 48, 81);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-weight: 700;
+    border: 1px solid rgb(239, 212, 7);
+    background-color: rgb(239, 212, 7);
+    border-radius: 7px;
+    font-size: 19px;
+    padding: 8px 45px;
+}
+
+/* men,women,boys */
+
+.photos-mw{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    gap: 3px;
+}
+.photos-mw img{
+    width: 100%;
+}
+.photos-gb img{
+    width: 100%;
+}
+.photos-gb{
+    width: 100%;
+    display: flex;
+    gap: 3px;
+}
+.men-head{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-size: 45px; 
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 30%;
+}
+.women-head{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-size: 45px; 
+    position: absolute;
+    color: white;
+    margin-top: 35%;
+    margin-left: 11%;
+}
+.girls-head{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-size: 45px; 
+    position: absolute;
+    color: white;
+    margin-top: 35%;
+    margin-left: 11%;
+}
+.boys-head{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-size: 45px; 
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 35%;
+    margin-left: 30%;
+}
+/* earn point */
+
+
+.earn-point-div{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.688),rgba(0, 0, 0, 0.688)),url("./images/girl-is-reading-book-cafe.jpg");
+    background-size: cover;
+    background-color: #0e3051;
+    height: 370px;
+    margin-top: 50px;
+    padding-top: 60px;
+}
+.yellow-box{
+    background-color: #efe11c;
+    width: 497px;
+    height: 310px;
+    margin-left: 650px;
+    border-radius: 10px;
+}
+.member{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0 !important;
+}
+.member img{
+    width: 30%;
+}
+.member p{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-weight: 700;
+    color: rgb(14, 48, 81);
+    letter-spacing: 1px;
+    margin-left: -75px;
+    font-size: 14px;
+}
+.yellow-box h1{
+    margin-top: 50px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-weight: 700;
+    color: rgb(14, 48, 81);
+    letter-spacing: 1px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.full{
+    padding-top: 50px;
+    padding-left: 60px;
+    width: 100%;
+    height: 300px;
+}
+.on-evry-prchs{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    color: rgb(14, 48, 81);
+    letter-spacing: 1px;
+    font-size: 25px;
+    margin-top: 0 !important;
+    margin-bottom: 7px
+}
+.register-text{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    color: rgb(62, 62, 62);
+    font-size: 14px;
+    margin-top: 0 !important;
+    margin-bottom: 30px;
+}
+.full a{
+    color: #efe11c;
+    text-decoration: none;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    letter-spacing: 2px;
+    border: 2px solid rgb(14, 48, 81);
+    background-color: rgb(14, 48, 81);
+    padding: 10px 60px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-left:65px;
+}
+.full a:hover{
+    border: 1px solid white;
+    transition: 0.5s;
+}
+/* refer and earn */
+
+
+.reffer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    background-color: rgb(14, 48, 81);
+    width: 100%;
+    height: 110px;
+}
+.gft-icon i{
+    color: #efe11c;
+    font-size: 55px;
+}
+.rfr-ern-txt{
+    color: white;
+    letter-spacing: 2px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-size: 25px;
+}
+.rfr-ern-txt span{
+    color: #efe11c;
+    
+}
+.rfr-sgnup-btn a{
+    text-decoration: none;
+    border: 1px solid #efe11c;
+    background-color: #efe11c;
+    color: rgb(14, 48, 81);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    padding: 13px 30px;
+    font-weight: 700;
+    border-radius: 6px;
+    margin-left: 60px;
+    font-size: 15px;
+}
+.locate-div{
+    margin-top: 50px;
+    background-color: #efe11c;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    height: 140px;
+}
+.locate-div-text{
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    color: rgb(14, 48, 81);
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.locate-div-text span{
+    font-weight: 700;
+}
+
+.locate-div-label label{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    color: rgb(14, 48, 81);
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.locate-div-input input{
+    margin-left: 30px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-right: 170px;
+}
+.locate-div-showme{
+    margin-top: 18px;
+}
+.locate-div-showme a{
+    text-decoration: none;
+    color: rgb(14, 48, 81);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 13px;
+    border-bottom: 1px solid red;
+}
+.View-all-product-btn{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+.View-all-product-btn a{
+    text-decoration: none;
+    border: 1px soilid rgb(14, 48, 81);
+    background-color: rgb(14, 48, 81);
+    color: white;
+    font-weight: 800;
+    box-shadow: 1px 1px 207px -55px rgba(0,0,0,0.75);
+    letter-spacing: 1px;
+    border-radius: 10px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    padding: 30px 140px;
+}
+.shipping-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+    gap: 300px;
+}
+.shipping-icons div{
+    text-align: center;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    
+}
+.shipping-icons span{
+    color: rgb(14, 48, 81);
+    margin-bottom: 0 !important;
+    font-size: 40px;
+}
+.shipping-icons p{
+    font-size: 13px;
+    margin-top: 0 !important;
+}
+.hl-under-icons{
+    padding-top: 50px;
+    border-bottom: 1px solid rgb(158, 158, 158);
+}
+.main-footer-left{
+    margin-left: 30px;
+    width: 50%;
+    display: flex;
+    gap: 40px;
+}
+.main-footer-left a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: black;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-size: 11px;
+}
+.main-footer-left a:hover{
+    border-bottom: 1px solid black;
+}
+ul{
+    list-style-type: none;
+}
+.main-footer-left span{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+}
